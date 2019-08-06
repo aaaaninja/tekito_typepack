@@ -2,7 +2,7 @@
 
 module.exports = {
   mode: "development",
-  entry: "./src/index.ts",
+  entry: `${__dirname}/src/index.ts`,
   output: {
     path: `${__dirname}/dist`,
     filename: "bundle.js"
