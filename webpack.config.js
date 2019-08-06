@@ -1,7 +1,7 @@
 /** @type import("webpack").Configuration */
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: `${__dirname}/src/index.ts`,
   output: {
     path: `${__dirname}/dist`,
